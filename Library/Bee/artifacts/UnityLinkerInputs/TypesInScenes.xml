@@ -4,7 +4,13 @@
 		<type fullname="GunMovement" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
 		<type fullname="ProjectileGun" preserve="nothing"/>
+		<type fullname="RotateWithCamera" preserve="nothing"/>
 		<type fullname="SC_FPSCounter" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.Animation.Rigging">
+		<type fullname="UnityEngine.Animations.Rigging.Rig" preserve="nothing"/>
+		<type fullname="UnityEngine.Animations.Rigging.RigBuilder" preserve="nothing"/>
+		<type fullname="UnityEngine.Animations.Rigging.TwoBoneIKConstraint" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
@@ -29,6 +35,7 @@
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
@@ -60,6 +67,7 @@
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>

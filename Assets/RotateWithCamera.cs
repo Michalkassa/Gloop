@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RotateWithCamera : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.localRotation = Quaternion.Inverse(Camera.main.transform.localRotation);
+        //transform.localRotation =  Camera.main.transform.localRotation;
+    }
+}

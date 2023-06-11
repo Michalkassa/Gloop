@@ -165,7 +165,15 @@
         155,
         156,
         157,
-        158
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
       ],
       "DebugActionIndex": 0
     },
@@ -390,7 +398,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 51237,
+      "PayloadLength": 51638,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -493,6 +501,10 @@
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Animation.Rigging.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
@@ -513,6 +525,7 @@
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/Unity/Gloop/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/Unity/Gloop/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll",
+        "D:/Unity/Gloop/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -1214,6 +1227,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2,
         2,
         2,
@@ -1306,8 +1324,8 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1836420466000326654.rsp",
       "DisplayName": "Writing 1836420466000326654.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 51409,
-      "PayloadLength": 74241,
+      "PayloadOffset": 51810,
+      "PayloadLength": 75368,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"C:/Program",
       "Inputs": [],
       "InputFlags": [],
@@ -1397,6 +1415,10 @@
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Animation.Rigging.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
@@ -1417,6 +1439,7 @@
         "D:/Unity/Gloop/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/Unity/Gloop/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/Unity/Gloop/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll",
+        "D:/Unity/Gloop/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -2600,6 +2623,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         8
       ],
       "Outputs": [
@@ -3001,6 +3029,27 @@
       "DebugActionIndex": 35
     },
     {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Runtime.dll",
+      "DisplayName": "Copying System.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Runtime.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/System.Runtime.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 36
+    },
+    {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Runtime.Serialization.dll",
       "DisplayName": "Copying System.Runtime.Serialization.dll",
       "ActionType": "CopyFiles",
@@ -3019,7 +3068,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Security.dll",
@@ -3040,7 +3089,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.ServiceModel.Internals.dll",
@@ -3061,7 +3110,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Transactions.dll",
@@ -3082,7 +3131,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Xml.dll",
@@ -3103,7 +3152,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/System.Xml.Linq.dll",
@@ -3124,7 +3173,112 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Animation.Rigging.dll",
+      "DisplayName": "Copying Unity.Animation.Rigging.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Animation.Rigging.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/Unity.Animation.Rigging.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll",
+      "DisplayName": "Copying Unity.Animation.Rigging.DocCodeExamples.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Animation.Rigging.DocCodeExamples.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Burst.dll",
+      "DisplayName": "Copying Unity.Burst.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Burst.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/Unity.Burst.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Burst.Unsafe.dll",
+      "DisplayName": "Copying Unity.Burst.Unsafe.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Burst.Unsafe.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/Unity.Burst.Unsafe.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Mathematics.dll",
+      "DisplayName": "Copying Unity.Mathematics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Mathematics.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Managed/Unity.Mathematics.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -3145,7 +3299,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -3166,7 +3320,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Device.dll",
@@ -3187,7 +3341,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.dll",
@@ -3208,7 +3362,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -3229,7 +3383,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -3250,7 +3404,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -3271,7 +3425,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -3292,7 +3446,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -3313,7 +3467,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -3334,7 +3488,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -3355,7 +3509,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -3376,7 +3530,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.TextMeshPro.dll",
@@ -3397,7 +3551,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.Timeline.dll",
@@ -3418,7 +3572,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -3439,7 +3593,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -3460,7 +3614,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -3481,7 +3635,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/Unity.VisualScripting.State.dll",
@@ -3502,7 +3656,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -3523,7 +3677,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AIModule.dll",
@@ -3544,7 +3698,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -3565,7 +3719,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -3586,7 +3740,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ARModule.dll",
@@ -3607,7 +3761,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -3628,7 +3782,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.AudioModule.dll",
@@ -3649,7 +3803,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ClothModule.dll",
@@ -3670,7 +3824,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -3691,7 +3845,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -3712,7 +3866,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.CommandStateObserverModule.dll",
@@ -3733,7 +3887,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -3754,7 +3908,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.CoreModule.dll",
@@ -3775,7 +3929,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -3796,7 +3950,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -3817,7 +3971,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.dll",
@@ -3838,7 +3992,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -3859,7 +4013,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -3880,7 +4034,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.GIModule.dll",
@@ -3901,7 +4055,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll",
@@ -3922,7 +4076,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.GridModule.dll",
@@ -3943,7 +4097,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -3964,7 +4118,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -3985,7 +4139,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -4006,7 +4160,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -4027,7 +4181,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.InputModule.dll",
@@ -4048,7 +4202,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -4069,7 +4223,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -4090,7 +4244,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.MarshallingModule.dll",
@@ -4111,7 +4265,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -4132,7 +4286,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -4153,7 +4307,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -4174,7 +4328,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -4195,7 +4349,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -4216,7 +4370,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -4237,7 +4391,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -4258,7 +4412,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -4279,7 +4433,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -4300,7 +4454,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -4321,7 +4475,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -4342,7 +4496,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -4363,7 +4517,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -4384,7 +4538,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -4405,7 +4559,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -4426,7 +4580,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -4447,7 +4601,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -4468,7 +4622,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -4489,7 +4643,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -4510,7 +4664,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -4531,7 +4685,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -4552,7 +4706,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.TLSModule.dll",
@@ -4573,7 +4727,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UI.dll",
@@ -4594,7 +4748,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -4615,7 +4769,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UIModule.dll",
@@ -4636,7 +4790,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -4657,7 +4811,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -4678,7 +4832,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -4699,7 +4853,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -4720,7 +4874,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -4741,7 +4895,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -4762,7 +4916,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -4783,7 +4937,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -4804,7 +4958,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -4825,7 +4979,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -4846,7 +5000,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -4867,7 +5021,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -4888,7 +5042,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.VFXModule.dll",
@@ -4909,7 +5063,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.VideoModule.dll",
@@ -4930,7 +5084,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -4951,7 +5105,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.VRModule.dll",
@@ -4972,7 +5126,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.WindModule.dll",
@@ -4993,7 +5147,7 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Managed/UnityEngine.XRModule.dll",
@@ -5014,13 +5168,327 @@
       "ToBuildDependencies": [
         18
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 137
+    },
+    {
+      "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+      "DisplayName": "Running Burst Compiler",
+      "ActionType": "RunRPCCommand",
+      "PayloadOffset": 127301,
+      "PayloadLength": 11338,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
+      "Action": "GenerateNativePluginsForAssemblies",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mono.Security.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/mscorlib.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/netstandard.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Newtonsoft.Json.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Configuration.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Core.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Data.DataSetExtensions.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Data.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Drawing.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.EnterpriseServices.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.IO.Compression.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.IO.Compression.FileSystem.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Net.Http.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Numerics.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Runtime.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Security.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Transactions.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Xml.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Xml.Linq.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Animation.Rigging.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Animation.Rigging.DocCodeExamples.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Burst.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Burst.Unsafe.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Mathematics.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Analytics.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Configuration.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Device.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Environments.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Environments.Internal.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Internal.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Networking.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Registration.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Scheduler.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Telemetry.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Services.Core.Threading.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Timeline.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Core.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Flow.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.State.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AccessibilityModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ARModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AssetBundleModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClothModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterInputModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterRendererModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CommandStateObserverModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ContentLoadModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CrashReportingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DSPGraphModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GameCenterModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GIModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GraphToolsFoundationModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GridModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.HotReloadModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ImageConversionModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputLegacyModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.JSONSerializeModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.LocalizationModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.MarshallingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.NVIDIAModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PerformanceReportingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ProfilerModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ScreenCaptureModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SharedInternalsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteMaskModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteShapeModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.StreamingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubstanceModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainPhysicsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextRenderingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TLSModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UmbraModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityConnectModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityCurlModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityTestProtocolModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAudioModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestTextureModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestWWWModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VehiclesModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VirtualTexturingModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VRModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.WindModule.dll",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.dll",
+        "ProjectSettings/BurstAotSettings_StandaloneWindows.json",
+        "D:/Unity/Gloop/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/bcl.exe"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [],
+      "OutputFlags": [],
+      "TargetDirectories": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+      ],
+      "TargetDirectoryFlags": [
+        0,
+        0
+      ],
+      "ToBuildDependencies": [
+        18
+      ],
+      "StatSignatures": [
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+        }
+      ],
+      "GlobSignatures": [
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 138
+    },
+    {
+      "Annotation": "CopyFiles Build/Gloop_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "DisplayName": "Copying lib_burst_generated.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64/lib_burst_generated.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Gloop_Data/Plugins/x86_64/lib_burst_generated.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        138
+      ],
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 125739,
+      "PayloadOffset": 138728,
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "DefaultCompany\nGloop",
       "Inputs": [],
@@ -5031,7 +5499,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/app.info",
@@ -5050,9 +5518,9 @@
         2
       ],
       "ToBuildDependencies": [
-        132
+        140
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Build/Gloop_Data/Resources/unity default resources",
@@ -5070,7 +5538,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Build/Gloop.exe",
@@ -5088,7 +5556,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -5106,7 +5574,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -5124,7 +5592,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -5142,7 +5610,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -5160,7 +5628,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -5178,7 +5646,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -5196,7 +5664,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -5214,7 +5682,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -5232,7 +5700,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -5250,7 +5718,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -5268,7 +5736,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -5286,7 +5754,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -5304,7 +5772,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -5322,7 +5790,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -5340,7 +5808,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -5358,7 +5826,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -5376,7 +5844,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -5394,7 +5862,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -5412,7 +5880,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
@@ -5430,7 +5898,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -5448,7 +5916,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
@@ -5466,7 +5934,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Build/UnityPlayer.dll",
@@ -5484,7 +5952,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "Player",
@@ -5621,14 +6089,13 @@
         129,
         130,
         131,
+        132,
         133,
         134,
         135,
         136,
         137,
-        138,
         139,
-        140,
         141,
         142,
         143,
@@ -5645,9 +6112,17 @@
         154,
         155,
         156,
-        157
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 166
     }
   ],
   "FileSignatures": [
@@ -5898,11 +6373,13 @@
   "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
   "EmitDataForBeeWhy": 0,
   "DirectoriesCausingImplicitDependencies": [
-    "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped"
+    "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 158
+          "Player": 166
         }
 ,  "DefaultNodes": [
     0

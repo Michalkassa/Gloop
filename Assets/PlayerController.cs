@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {   
     CharacterController controller;
-    Animator animator;
     AudioSource audioSource;
     bool enableControls = true;
 
@@ -28,6 +27,10 @@ public class PlayerController : MonoBehaviour
     bool jump;
     public float mouseX,mouseY;
 
+    [Header("Animations")]
+    public bool moving = false;
+    public Animator animator;
+
     void Awake(){
         controller = GetComponent<CharacterController>();
         //animator = GetComponentInChildren<Animator>();
@@ -45,6 +48,12 @@ public class PlayerController : MonoBehaviour
         }
         Movement();
         Mouselook();
+        //setting moving to true when detecting input
+        moving = (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical1") != 0);
+
+        //ANIMATION
+        //WALKING
+        animator.SetBool("moving", moving);
     }
 
     void MoveInput(){
@@ -89,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
     void Mouselook(){
         xRotation -= mouseY * Sensitivity;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -90f, 60f);
 
         Camera.main.transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
         transform.Rotate(Vector3.up * mouseX * Sensitivity);
