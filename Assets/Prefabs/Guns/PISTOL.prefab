@@ -62,10 +62,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5674988783605563485}
-  - {fileID: 9141007826947906381}
-  - {fileID: 3528700353067875381}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7068217428831205722
 MonoBehaviour:
@@ -117,7 +115,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7154860063048550035}
+  m_Father: {fileID: 5674988783605563485}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2847798028409759321
@@ -183,6 +181,8 @@ Transform:
   m_Children:
   - {fileID: 2458891719218380}
   - {fileID: 7354387791668862147}
+  - {fileID: 9141007826947906381}
+  - {fileID: 3528700353067875381}
   m_Father: {fileID: 7154860063048550035}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 5120332704446635926, guid: 8819dfcd0a35291488dc9721f2ec8e30, type: 3}
-  shootForce: 150
+  shootForce: 400
   upwardforce: 0
   fireRate: 300
   verticalSpread: 0.5
@@ -345,6 +345,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7154860063048550035}
+  m_Father: {fileID: 5674988783605563485}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

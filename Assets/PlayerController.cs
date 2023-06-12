@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     CharacterController controller;
     AudioSource audioSource;
     bool enableControls = true;
+    public float health = 100f;
 
     [Header("Controller")]
     public float speed = 100f;
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float jumpHeight = 10f;
 
     public LayerMask groundMask;
+    public GameObject ragdoll;
     public Transform groundCheck;
     public float groundDistance = 0.4f;
 
@@ -102,6 +104,14 @@ public class PlayerController : MonoBehaviour
 
         Camera.main.transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
         transform.Rotate(Vector3.up * mouseX * Sensitivity);
+    }
+
+    public void Die(){
+        Instantiate(ragdoll,transform.position,transform.rotation);
+        Destroy(gameObject);
+
+
+
     }
 
 

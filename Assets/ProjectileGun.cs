@@ -4,12 +4,6 @@ using System.Collections;
 
 public class ProjectileGun : MonoBehaviour
 {
-    //bullet
-    public GameObject bullet;
-
-    //bullet force
-    public float shootForce, upwardforce;
-
     [Header("Gun Stats")]
     public float fireRate;
     public float verticalSpread;
@@ -19,16 +13,26 @@ public class ProjectileGun : MonoBehaviour
     public int magazineSize, bulletsPerTap;
     public bool allowButtonHold;
 
+    public float bulletDamage;
+    public float headMultiplier;
+    public float legsMultiplier;
+    public float bodyMultiplier;
+
     int bulletsLeft, bulletsShot;
     float timeBetweenShooting;
 
     bool shooting, readyToShoot, reloading;
 
     public Transform attackPoint;
+    private TakeDamage TakeDmg;
+    public GameObject ImpactParticleSystem;
+    public TrailRenderer BulletTrail;
+    public Transform BulletSpawnPoint;
 
     //Graphics
     public TextMeshProUGUI ammoDisplay;
     public GameObject muzzleFlash;
+
 
     //bug fixing
     public bool allowInvoke = true;
@@ -67,36 +71,25 @@ public class ProjectileGun : MonoBehaviour
     }
 
     private void Shoot(){
+        TakeDmg = null;
         readyToShoot = false;
 
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f,0.5f,0));
         RaycastHit hit;
 
-        Vector3 targetPoint;
+        if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit)){
+            CheckHit(hit);
+            TrailRenderer trail = Instantiate(BulletTrail, BulletSpawnPoint.position, Quaternion.identity);
+            StartCoroutine(SpawnTrail(trail,hit));
+        }
+        //else{
+        //     TrailRenderer trail = Instantiate(BulletTrail, BulletSpawnPoint.position, Quaternion.identity);
+        //     StartCoroutine(SpawnTrail(trail,hit));
+        // }
 
-        if(Physics.Raycast(ray, out hit)) targetPoint = hit.point;
-        else targetPoint = ray.GetPoint(75);
-        
-
-        Vector3 directionWithoutSpread = targetPoint - attackPoint.position;
-
-        //calculate Spread;
-
-        float x = Random.Range(horizontalSpread, -horizontalSpread);
-        float y = Random.Range(verticalSpread, -verticalSpread);
-
-        Vector3 directionWithSpread = directionWithoutSpread + new Vector3(x,y,0);
-        
-        //INSTATIATE BULLET
-        GameObject currentBullet = Instantiate(bullet, attackPoint.position,Quaternion.identity);
-        currentBullet.transform.forward = directionWithSpread.normalized;
-
-        //add Forces
-        currentBullet.GetComponent<Rigidbody>().AddForce(directionWithSpread.normalized * shootForce, ForceMode.Impulse);
 
         if(muzzleFlash != null){
             GameObject muzzle = Instantiate(muzzleFlash,attackPoint.position,Quaternion.identity);
-            muzzle.transform.forward = directionWithSpread.normalized;
             Destroy(muzzle, 2f);
         }
 
@@ -119,6 +112,25 @@ public class ProjectileGun : MonoBehaviour
 
     }
 
+    void CheckHit(RaycastHit hit){
+        if(hit.rigidbody != null){
+            hit.rigidbody.AddForce(-hit.normal * 10f);
+        }
+        try{
+            TakeDmg = hit.transform.GetComponent<TakeDamage>();
+            switch (TakeDmg.damageType){
+                case TakeDamage.collisionType.head : TakeDmg.HIT(bulletDamage * headMultiplier);
+                break;
+                case TakeDamage.collisionType.body :  TakeDmg.HIT(bulletDamage * bodyMultiplier);
+                break;
+                case TakeDamage.collisionType.legs : TakeDmg.HIT(bulletDamage * legsMultiplier);
+                break;
+            }
+        }catch{
+            Debug.Log("something went wrong");
+        }
+    }
+
     void ShootAnimation(){
         GetComponent<Animator>().SetTrigger("Shoot");
     }
@@ -138,6 +150,21 @@ public class ProjectileGun : MonoBehaviour
         bulletsLeft = magazineSize;
         reloading = false;
         GetComponent<Animator>().SetBool("Reloading",reloading);
+    }
+
+    private IEnumerator SpawnTrail(TrailRenderer Trail, RaycastHit Hit){
+        float time = 0;
+        Vector3 startPosition = Trail.transform.position;
+        while(time < 1){
+            Trail.transform.position = Vector3.Lerp(startPosition, Hit.point, time);
+            time += Time.deltaTime / Trail.time;
+
+            yield return null;
+        }
+        Trail.transform.position= Hit.point;
+        Instantiate(ImpactParticleSystem,Hit.point,Quaternion.LookRotation(Hit.normal));
+
+        Destroy(Trail.gameObject, Trail.time);
     }
 
 

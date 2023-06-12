@@ -1,11 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="Bullet" preserve="nothing"/>
 		<type fullname="GunMovement" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
 		<type fullname="ProjectileGun" preserve="nothing"/>
 		<type fullname="RotateWithCamera" preserve="nothing"/>
 		<type fullname="SC_FPSCounter" preserve="nothing"/>
+		<type fullname="TakeDamage" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.Animation.Rigging">
 		<type fullname="UnityEngine.Animations.Rigging.Rig" preserve="nothing"/>
@@ -41,12 +41,15 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
+		<type fullname="UnityEngine.CharacterJoint" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
+		<type fullname="UnityEngine.Joint" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
